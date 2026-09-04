@@ -1,1 +1,10 @@
+targets:
+  dev:
+    mode: development
+    workspace:
+      host: https://adb-7405604650015575.15.azuredatabricks.net
 
+  prod:
+    mode: production
+    workspace:
+      host: https://adb-7405604650015575.15.azuredatabricks.net

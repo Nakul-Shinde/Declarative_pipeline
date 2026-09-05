@@ -12,4 +12,6 @@ combined_df = customers_silver_df.join(
 
 state_wise_sales_df = combined_df.groupBy("state").agg(F.sum("total_amount").alias("total_sales"))
 state_wise_sales_df.write.mode("overwrite").saveAsTable("week21_assignment.gold_schema.state_wise_sales")
-##
+
+
+#############
